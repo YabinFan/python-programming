@@ -26,6 +26,16 @@
 ##    5. Peach, Grape,Plum
 ##    6. Plum, Lemon, Pear
 
+fruits = ['Apple', 'Banana', 'Peach', 'Grape', 'Plum' ,'Lemon', 'Pear']
+for index,item in enumerate(fruits):
+    print(index+1,item)
+
+print(fruits[:3],"haha",fruits[4:])
+
+
+
+
+
 ################################################################################
 ## 2 List2
 ## Take the following information as inputs:
@@ -39,6 +49,11 @@
 ##    2. Python
 ##    3. Jack
 
+l = [["facebook", "linkedin", "amazon", "google"],["Java","Python", "Php"],["Bob","Tom","Jack"]]
+
+print("1.",l[0][0],"\n2.",l[1][1],"\n3.",l[2][2])
+
+
 ################################################################################
 ## 3 Tuple1
 ## Take the following information as inputs:
@@ -48,6 +63,12 @@
 ##    2. Bob
 ##    3. Jack,Tom
 ##v   4. Tom,Bob
+
+classmates = ('Michael', 'Jack', 'Tom', 'Bob')
+
+print("1.",classmates[0],"\n2.",classmates[3],"\n3.",classmates[1:3],"\n4.",classmates[2:])
+
+
 
 ################################################################################
 ## 4 Tuple2
@@ -60,6 +81,17 @@
 ##    4. Tom,Bob
 ## How to change 'Tom' to 'Jason', the classmates output:
 ##    classmates = ('Michael', 'Jack', ['Jason', 'Bob'])
+
+classmates = ('Michael', 'Jack', ['Tom', 'Bob'])
+print("1.",classmates[1],"\n2.",classmates[2][0],"\n3.",classmates[2][1],"\n4.",classmates[2])
+
+classmates[2][0] = "Jason"
+
+print("classmates = ",classmates)
+
+
+
+
 
 ################################################################################
 ## 5 Find more built-in functions
@@ -89,4 +121,21 @@
 ##   3. Print sorted list of [12, 0, -5, -7, 11, 21, 55, -28]
 ##   4. Print max/min value of [12, 0, -5, -7, 11, 21, 55, -28]
 ##   5. Print length of list [12, 0, -5, -7, 11, 21, 55, -28]
+
+list = [True, False, True, True, False]
+
+print(all(list))
+print("1.",any(list))
+
+list2 = [12, 0, -5, -7, 11, 21, 55, -28]
+print("2.",sum(list2))
+
+list3 = [12, 0, -5, -7, 11, 21, 55, -28]
+print("3.",sorted(list3))
+
+list4= [12, 0, -5, -7, 11, 21, 55, -28]
+print("4.",max(list4),",",min(list4))
+
+list5 = [12, 0, -5, -7, 11, 21, 55, -28]
+print("5.",len(list5))
 
