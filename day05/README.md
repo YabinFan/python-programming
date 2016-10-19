@@ -1,6 +1,11 @@
 # Outline - Rolling deep in python
 
 [TOC]
+## Dict
+
+## Set
+
+## Loop with dict/set
 
 ## Member functions of list/tuple
 

@@ -7,9 +7,3 @@
 ## List comprehension
 
 ## List and string
-
-## Dict
-
-## Set
-
-## Loop with dict/set
