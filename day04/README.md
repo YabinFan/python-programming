@@ -2,10 +2,8 @@
 
 [TOC]
 
-## Dict
+## Loop with list/tuple
 
-## Set
+## List comprehension
 
-## Loop with dict/set
-
-## Understand how data are stored
+## List and string
